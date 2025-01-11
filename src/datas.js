@@ -111,4 +111,89 @@ const transactions = [
     },
 ]
 
-export { xAxisData, newMembers, transactions }
+let userRows = [
+    {
+        id: 1,
+        username: 'Yeganeh Mhdtbr',
+        avatar: 'images/profile.png',
+        status: 'active',
+        transaction: '$129.52',
+        email: 'yegi@gmail.com'
+    },
+    {
+        id: 2,
+        username: 'Baran Moq',
+        avatar: 'images/profile.png',
+        status: 'non-active',
+        transaction: '$110',
+        email: 'baraan@gmail.com'
+    },
+    {
+        id: 3,
+        username: 'Mahsa Absi',
+        avatar: 'images/profile.png',
+        status: 'active',
+        transaction: '$98',
+        email: 'mahii@gmail.com'
+    },
+    {
+        id: 4,
+        username: 'Panah Ahadi',
+        avatar: 'images/profile.png',
+        status: 'active',
+        transaction: '$0',
+        email: 'panah@gmail.com'
+    },
+    {
+        id: 5,
+        username: 'Zahra Ysi',
+        avatar: 'images/profile.png',
+        status: 'active',
+        transaction: '$55.98',
+        email: 'zahra22@gmail.com'
+    }
+]
+
+let products = [
+    {
+        id: 1,
+        title: 'Asus',
+        avatar: 'images/asus.jpeg',
+        price: 890
+    },
+    {
+        id: 2,
+        title: 'Acer',
+        avatar: 'images/acer.jpg',
+        price: 890
+    },
+    {
+        id: 3,
+        title: 'HP',
+        avatar: 'images/hp.jpg',
+        price: 890
+    },
+    {
+        id: 4,
+        title: 'Dell',
+        avatar: 'images/dell.jpg',
+        price: 890
+    },
+]
+
+const productsData = [
+    {
+        name: 'Jan',
+        sales: 4000,
+    },
+    {
+        name: 'Feb',
+        sales: 3000,
+    },
+    {
+        name: 'Mar',
+        sales: 5000,
+    },
+]
+
+export { xAxisData, newMembers, transactions, userRows, products, productsData}
