@@ -132,3 +132,9 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .productTop {
+        flex-direction: column;
+    }
+}

@@ -29,3 +29,9 @@
     color: red;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .userList {
+        flex: 1;
+    }
+}

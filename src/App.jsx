@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
 
-  let router = useRoutes(routes)
+  const router = useRoutes(routes)
 
   return (
     <>

@@ -58,3 +58,10 @@
     font-size: 16px !important;
     /* margin-right: 5px; */
 }
+
+@media (max-width: 768px) {
+    .widgetSm {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

@@ -4,7 +4,7 @@ import NewUser from "./pages/NewUser/NewUser";
 import Products from "./pages/Products/Products";
 import Product from'./pages/Product/Product';
 
-let routes = [
+const routes = [
     {path: '/', element: <Home />},
     {path: '/users', element: <UserList />},
     {path: '/newUser', element: <NewUser />},
