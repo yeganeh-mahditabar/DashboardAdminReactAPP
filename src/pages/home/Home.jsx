@@ -2,19 +2,25 @@ import React from 'react';
 import Features from '../../components/features/Features';
 import Chart from '../../components/chart/Chart';
 import { xAxisData } from '../../datas';
-import './Home.css';
 import WidgetSm from '../../components/widgetSm/WidgetSm';
 import WidgetLg from '../../components/widgetLg/WidgetLg';
+import { Box } from '@mui/material';
 
 export default function Home() {
   return (
-    <div className='home'>
+    <Box sx={{ flex: 4 }}>
       <Features />
       <Chart grid title="Month Sale" data={xAxisData} dataKey="Sale" />
-      <div className='homeWidgets'>
+      <Box
+        sx={{
+          display: 'flex',
+          margin: { xs: '10px', sm: '20px' },
+          flexDirection: { xs: 'column', sm: 'row' },
+        }}
+      >
         <WidgetSm />
         <WidgetLg />
-      </div>
-    </div>
-  )
+      </Box>
+    </Box>
+  );
 }
