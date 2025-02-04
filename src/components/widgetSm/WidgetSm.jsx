@@ -1,4 +1,3 @@
-import React from 'react'
 import { Visibility } from '@mui/icons-material'
 import { newMembers } from '../../datas'
 import './WidgetSm.css'

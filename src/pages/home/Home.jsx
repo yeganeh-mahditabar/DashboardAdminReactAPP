@@ -1,4 +1,3 @@
-import React from 'react';
 import Features from '../../components/features/Features';
 import Chart from '../../components/chart/Chart';
 import { xAxisData } from '../../datas';

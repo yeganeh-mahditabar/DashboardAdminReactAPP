@@ -1,4 +1,3 @@
-import React from 'react';
 import {
     ResponsiveContainer,
     LineChart,
@@ -9,6 +8,7 @@ import {
 } from 'recharts';
 
 import './Chart.css';
+import PropTypes from 'prop-types';
 
 export default function Chart({title, data, dataKey, grid}) {
   return (
@@ -23,5 +23,12 @@ export default function Chart({title, data, dataKey, grid}) {
               </LineChart>
           </ResponsiveContainer>
       </div>
-  )
+  );
 }
+
+{/*Chart.propTypes = {
+    title: PropTypes.string,
+    data: PropTypes.array.isRequired,
+    dataKey: PropTypes.string,
+    grid: PropTypes.bool,
+};*/}
