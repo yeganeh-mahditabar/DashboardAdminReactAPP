@@ -1,6 +1,6 @@
 import { AttachMoney, BarChart, ChatBubbleOutline, DynamicFeed, LineStyle, MailOutline, PermIdentity, Storefront, Timeline, TrendingUp, WorkOutline } from '@mui/icons-material';
 import './Sidebar.css';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 export default function Sidebar() {
   return (

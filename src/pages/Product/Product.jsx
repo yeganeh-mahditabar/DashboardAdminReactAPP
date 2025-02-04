@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router'
 import Chart from '../../components/chart/Chart'
 import { productsData } from '../../datas'
 import { Publish } from "@mui/icons-material";
